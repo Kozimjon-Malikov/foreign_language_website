@@ -1,0 +1,118 @@
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.slider,
+.slider_post {
+    position: relative;
+    top: -10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider_post h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 65px;
+    color: #000000;
+}
+
+.slider_post span {
+    align-self: flex-end;
+    position: absolute;
+    right: 120px;
+}
+
+.left__side p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #8F95A5;
+    margin: 15px 0px;
+}
+
+.left__side button {
+    background: #263238;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px 20px;
+    color: #fff;
+    margin: 20px 0px;
+}
+.left__side{
+    width: 555px;
+    position: relative;
+}
+.right__side{
+    /* width: 55%; */
+}
+.right__side img{
+    width: 600px;
+    /* position: absolute; */
+    right: 0;
+    top: 0%;
+    height: 500px;
+}
+@media screen and (max-width: 768px) {
+    .slider{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .slider, .slider_post {
+        position: relative;
+        /* top: -10px; */
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .slider_post span{
+        position: relative;
+        right: 0%;
+    }
+    .right__side img{
+            width: 600px;
+            /* position: absolute; */
+            right: 0;
+            top: 0%;
+            margin-bottom: 15px;
+            height: 380px;
+    }
+    .slider_post h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        color: #000000;
+    }
+    .left__side p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #8F95A5;
+        margin: 15px 0px;
+        text-align: center;
+    }
+    .left__side {
+        width: 555px;
+        position: relative;
+        text-align: center;
+    }
+   
+.content_about {
+    width: 550px;
+    margin: 0px 20px 0px 0px;
+    text-align: center;
+}
+
+
+    }

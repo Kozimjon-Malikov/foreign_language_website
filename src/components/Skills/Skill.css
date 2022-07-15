@@ -1,0 +1,143 @@
+.skills .name_Skill {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  margin: 30px 0px;
+  padding: 15px 0px;
+}
+.speaking {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #f5f5f5;
+  border-radius: 10px;
+  width: 100%;
+}
+.speaking h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  color: #263238;
+  padding: 10px 20px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.speaking p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px 25px;
+
+  color: #8f95a5;
+}
+.tasks {
+  display: flex;
+  flex-direction: column;
+}
+.reading_writing {
+  display: flex;
+  justify-content: center;
+}
+
+.writing h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  padding: 5px 25px;
+
+  color: #263238;
+}
+.reading h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  padding: 15px 25px;
+  color: #263238;
+  position: relative;
+  top: 5px;
+}
+.reading p{
+    /* font-family: 'Poppins'; */
+/* font-style: normal; */
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #8F95A5;
+padding: 10px;
+
+}
+.btn {
+  padding: 10px 20px;
+  background: #263238;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.listening {
+  display: flex;
+  justify-content: start;
+}
+.img_thumb {
+    float: right;
+  height: 220px;
+}
+.reading {
+  margin: 0px 10px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.listening {
+  margin: 0px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  background: #f5f5f5;
+  padding: 15px 25px;
+  position: relative;
+  top: 10px;
+}
+.listening h4 {
+  float: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  color: #263238;
+  padding: 15px 25px;
+}
+.info_listening p {
+  padding: 10px 20px;
+}
+.innder_content {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .box{
+    flex-wrap: wrap-reverse;
+  }
+  .innder_content{
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+}

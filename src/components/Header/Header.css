@@ -1,0 +1,84 @@
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    margin: 15px auto !important;
+    justify-content: space-between;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.navbar ul li {
+    margin: 0px 15px;
+}
+
+.navbar ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #263238;
+    text-decoration: none;
+    position: relative;
+    width: 0%;
+    transform: translateX(0px);
+    padding: 2px 0px;
+    transition: 0.35s ease-in;
+}
+.navbar ul li a:hover::before{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 2px;
+    border-radius: 2px;
+    width: 100%;
+    transform: translateX(1px);
+    transition: 0.3s ease-in;
+    background-color: #000000;
+}
+
+.logo img {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.sign button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px 25px;
+    border: 1px solid #000000;
+    color: #000000;
+    border-radius: 2px;
+    transition: 0.35s ease;
+
+}
+.sign button:hover{
+    background-color: #000000;
+    color: white;
+}
+#close{
+    display: none;
+}
+.show{
+    display: block!important;
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        display: none;
+    }
+    #close{
+        display: block;
+    }
+}
